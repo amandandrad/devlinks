@@ -17,9 +17,9 @@ function toggleMode() {
   //SUBSTITUIR A IMAGEM
   if (html.classList.contains("light")) {
     //SE TIVER LIGHT MODE, ADICIONAR A IMAGEM
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/foto2.png")
   } else {
     // SE TIVER SEM LIGHT MODE, MANTER A IMAGEM
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/foto1.png")
   }
 }
